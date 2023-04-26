@@ -23,9 +23,8 @@ body{
     margin: 0 auto;
 }
 
-.container{
-    width: 1140px;
-    margin: 0 auto;
+p{
+    color: #4A4A4A;
 }
 
 nav .nav-box{
@@ -41,8 +40,9 @@ nav .nav-box{
 .nav-text{
     width: 80px;
     height: 30px;
-    font-size: 25px;
-    font-weight: 645;
+    font-size: 28px;
+    font-weight: 648;
+    letter-spacing: 1px;
 }
 
 .nav-list{
@@ -98,3 +98,83 @@ nav .nav-box{
     margin: 0 240px 0 20px;
     border-bottom: solid 1px black;
 }
+
+.main-text h6{
+    font-size: 82px;
+    font-weight: 649.8;
+    line-height: 106px;
+    letter-spacing: 3px;
+}
+
+.main-text{
+    width: 45%;
+    margin-top: 70px;
+}
+
+.main-all{
+    display: flex;
+}
+
+.main-all img{
+    width: 275px;
+    margin-top: 70px;
+    margin-left: -30px;
+}
+
+.main-all a{
+    height: 55px;
+    width: 160px;
+    border-radius: 4px;
+    padding: 15px 33px;
+    font-size: 18px;
+    line-height: 23px;
+    color: white;
+    background: #066F14;
+    margin-top: 100px;
+}
+
+.main-photo img{
+    width: 700px;
+}
+
+.main-text p:nth-child(1){
+    width: 570px;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+main .nav-box{
+    width: 1600px;
+    margin: 110px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-all2{
+    width: 630px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nomber h5{
+    /* width: 300px; */
+    font-size: 46px;
+    font-weight: 649;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+}    
+
+.main-nomber p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-bottom: 120px;
+
+}
+
+
