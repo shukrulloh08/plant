@@ -487,3 +487,64 @@ main .nav-box{
     display: flex; 
     margin-left: 655px;
 }
+
+.div-color{
+    height: 320px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-left: 180px;
+    padding: 45px 60px;
+    background: #DFFFE3;
+}
+
+.div-text h4{
+    font-size: 45px;
+    font-weight: 649.8;
+    line-height: 50px;
+}
+
+.div-text p:nth-child(2){
+    width: 500px;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 33px;
+    line-height: 30px;
+}
+
+.input{
+    height: 56px;
+    width: 451px;
+    background: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 8px 8px 8px 20px;
+}
+
+.div-input-all{
+    display: flex;
+}
+
+.div-box p{
+    height: 40px;
+    width: 98px;
+    background: #066F14;
+    margin-top: 8px;
+    margin-left: -105px;
+    color: white;
+    border-radius: 4px;
+    padding: 8px 16px 11px 16px;
+}
+
+.div-box:hover{
+    cursor: pointer;
+}
+
+.div-photo{
+    margin-top:-80px;
+}
+
+
