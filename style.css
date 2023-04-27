@@ -60,7 +60,8 @@ nav .nav-box{
 .nav-link:hover{
     transition: .3;
     margin: 0 30px;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #066F14;
+    color: #066F14;
 }
 
 .nav-link2{
@@ -96,7 +97,8 @@ nav .nav-box{
 .nav-link1:hover{
     transition: .3;
     margin: 0 240px 0 20px;
-    border-bottom: solid 1px black;
+    border-bottom: solid 1px #066F14;
+    color: #066F14;
 }
 
 .main-text h6{
@@ -159,7 +161,6 @@ main .nav-box{
 }
 
 .main-nomber h5{
-    /* width: 300px; */
     font-size: 46px;
     font-weight: 649;
     line-height: 49px;
@@ -268,7 +269,7 @@ main .nav-box{
     width: 510px;
     font-size: 17px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 25 px;
     margin-bottom: 20px;
 }
 
@@ -286,5 +287,93 @@ main .nav-box{
     border-radius: 4px;
     padding: 16px 32px 16px 32px;
     background: #066F14;
+    margin-bottom: 200px;
+}
+
+.text{
+    text-align: center;
+    font-size: 41px;
+    font-weight: 649;
+    line-height: 50px;
+}
+
+.tion-text p:hover{
+    color: #066F14;
+    cursor: pointer;
+}
+
+.tion-text-all{
+    display: flex;
+    margin-left: 670px;
+}
+
+.tion-text p{
+    margin-right:30px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-weight: 650;
+}
+
+.tion-photo{
+    height: 313px;
+    width: 310px;
+    border-radius: 3px;
+    background: #e0e4de;
+    padding: 20px 35px 0 45px;
+    margin-bottom: 60px;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+.photo{
+    margin-left: 35px;  
+}
+
+.tion-photo:hover{
+    background: #f0e7df;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.tion-photo p:nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 7px;
+    color: black;
+}
+
+.tion-photo p:nth-child(4){
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #1A1A1A;
+}
+
+.vector{
+    display: flex;
+}
+
+.vector1 img{
+    margin-right: 5px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+}
+
+.tion-all-photo{
+    display: flex;
+    margin-left: 100px;
+}
+
+.tion-green p{
+    height: 55px;
+    width: 131px;
+    background: #066F14;
+    color: white;
+    border-radius: 4px;
+    margin-left: 720px;
+    margin-bottom: 180px;
+    padding: 16px 32px 16px 32px;
+    text-align: center;
 }
 
